@@ -18,6 +18,12 @@ A principio foi desenvolvido uma função para criar matrizes pseudo-aleatórias
 
 Criar uma maneira de ler várias coordenadas no arquivo key.txt e inserir automáticamente as transpostas na HASH.
 
+# Funcionamento
+
+Utilizar o menu para realizar as operações. (De preferência em ordem crescente -> 1, 2, 3 ...)
+Para testar um novo par de coordenadas é necessário alterar manualmente no arquivo key.txt durante a execução do programa.
+Por exemplo, após percorrer todo o menu, altere o valor da chave no arquivo e percorra novamente para salvar outros valores na Hash.
+
 # Executar
 * Como executar:
 
