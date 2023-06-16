@@ -2,7 +2,7 @@
 
 # Problema
 
-Neste trabalho, foi implementado um sistema de multiplicação de matrizes baseando-se em uma estratégia de segmentação em arquivo. Um arquivo M grande é fornecido no formato NxN com valores inteiros como entrada. Este é processado a partir de várias coordenadas introduzidas por um segundo arquivo, o key.txt. Em key.txt deve ser descrito por linha uma dupla de i e j correspondendo a posição inicial e final a ser lida. Por exemplo, as posições 2,4,6,10 indica que a leitura em M deve iniciar na linha 2 coluna 4 e seguir até a linha 6 coluna 10. 
+Neste projeto, foi implementado um sistema de multiplicação de matrizes baseando-se em uma estratégia de segmentação em arquivo. Um arquivo M grande é fornecido no formato NxN com valores inteiros como entrada. Este é processado a partir de várias coordenadas introduzidas por um segundo arquivo, o key.txt. Em key.txt deve ser descrito por linha uma dupla de i e j correspondendo a posição inicial e final a ser lida. Por exemplo, as posições 2,4,6,10 indica que a leitura em M deve iniciar na linha 2 coluna 4 e seguir até a linha 6 coluna 10. 
 
 
 Feito a leitura da composição de M para um tipo matriz em C, a segunda etapa foi produzir a transposta de M -= MT. Feito isso, foi armazenado em uma hash o resultado da multiplicação como valor para a dupla de i's e j's, os quais foram utilizados como chaves da hash. Assim, para cada novo calculo, antes o sistema consulta a hash para identificar se a multiplicação já foi realizada. Em caso afirmativo, retorna apenas a resposta já calculada. Caso contrário, elabora a multiplicação e armazena o conteúdo em cache. 
